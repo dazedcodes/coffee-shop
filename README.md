@@ -12,7 +12,7 @@ you'll choose your coffee size, type, and flavor, and the program will summarize
 
 3. Direct to the program location. 
 
-4. Type in the following command: python coffee-shop.py * FIX THIS *
+4. Type in the following command: python order-coffee.py * FIX THIS *
 
 5. Order your cup of coffee ready and enjoy! 
 
