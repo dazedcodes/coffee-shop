@@ -24,5 +24,4 @@ connecting it to a frontend that shows off your HTML and CSS skills.
 The backend API could resemble a user's cart or track orders for a barista to complete.
 
 
-Maya Murphy 
-[LinkedIn](https://www.linkedin.com/in/maya-and-tech/)
+Maya Murphy @[LinkedIn](https://www.linkedin.com/in/maya-and-tech/)
