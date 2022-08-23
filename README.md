@@ -6,7 +6,6 @@ This Python program will calculate the cost of a custom cup of coffee at a gourm
 you'll choose your coffee size, type, and flavor, and the program will summarize and price your order.
 
 ### How To Run the Program 
-Before running this program, make sure you have Python3 installed.
 
 1. Download the program.
 
