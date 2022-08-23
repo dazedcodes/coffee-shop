@@ -18,7 +18,10 @@ How To Run the Program
 
 The code to run this program is simple and a great start for those learning Python. 
 
-You can expand on this program by creating a backend API with CRUD functionality and connecting it to a frontend that shows off your HTML and CSS skills. The backend API could resemble a user's cart or track orders for a barista to complete.
+You can expand on this program by creating a backend API with CRUD functionality and 
+connecting it to a frontend that shows off your HTML and CSS skills. 
+
+The backend API could resemble a user's cart or track orders for a barista to complete.
 
 
 
