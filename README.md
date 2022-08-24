@@ -6,13 +6,14 @@ This Python program will calculate the cost of a custom cup of coffee at a gourm
 you'll choose your coffee size, type, and flavor, and the program will summarize and price your order.
 
 ### How To Run the Program 
+
 1. Download the program.
 
 2. Open the Terminal or Command Line, depending on your OS system.  
 
 3. Direct to the program location. 
 
-4. Type in the following command: python coffee-shop.py * FIX THIS *
+4. Type in the following command: python3 order-coffee.py
 
 5. Order your cup of coffee ready and enjoy! 
 
