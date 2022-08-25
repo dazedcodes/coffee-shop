@@ -5,7 +5,9 @@ Grab a virtual coffee cup of coffee via a program written in Python.
 This Python program will calculate the cost of a custom cup of coffee at a gourmet coffee shop,
 you'll choose your coffee size, type, and flavor, and the program will summarize and price your order.
 
-### How To Run the Program 
+Check out the order-coffee.ipynb file to see how the program works in sections. You may also work with the file to perform program improvements by downloading the order-coffee.py file. 
+
+### How To Run the Program on Your Computer
 
 1. Download the program.
 
