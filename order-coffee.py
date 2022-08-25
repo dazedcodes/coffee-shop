@@ -3,10 +3,9 @@
 
 from functools import reduce
 
-# Ask customer what size of coffee they'd like.
-size = input('Do you want small, medium, or large? ').lower()
+""" COFFEE SIZE """
 
-# Boolean tracking whether we need to re-confirm size or not.
+size = input('Do you want small, medium, or large? ').lower()
 sizeList = ["small", "medium", "large"]
 checkSize = False if size in sizeList else True
 
@@ -20,14 +19,13 @@ while (checkSize):
         checkSize = False
 
 
-# Ask customer what type of coffee they'd like.
-type = input('Do you want brewed, espresso, or cold press? ').lower()
+""" COFFEE TYPE """
 
-# Boolean tracking whether we need to re-confirm type or not.
+type = input('Do you want brewed, espresso, or cold press? ').lower()
 typeList = ['brewed', 'espresso', 'cold press']
 checkType = False if type in typeList else True
 
-# If size coffee is not clear, reconfirm type.
+# If coffee type is not clear, reconfirm type.
 while (checkType):
     if (type not in typeList):
         print('')
@@ -37,9 +35,9 @@ while (checkType):
         checkType = False
 
 
-getChoice = input('Do you want a flavored syrup? (yes or no) ').lower()
+""" FLAVOR """
 
-# Boolean tracking whether we need to re-confirm flavor add on or not.
+getChoice = input('Do you want a flavored syrup? (yes or no) ').lower()
 choices = ['yes', 'no']
 checkChoice = False if getChoice in choices else True
 
@@ -53,8 +51,6 @@ while (checkChoice):
     else:
         checkChoice = False
 
-
-# Summarize guest order and reveal total.
 flavor = ''
 if getChoice == 'yes':
     flavor = input('Hazelnut, vanilla, or caramel? ')
@@ -64,6 +60,9 @@ if getChoice == 'yes':
 elif getChoice == 'no':
     print('')
     msg = 'You asked for a {} cup of {} coffee.'.format(size, type)
+
+
+""" ORDER SUMMARY """
 
 print(msg)
 options = [size, type, getChoice]
@@ -77,6 +76,7 @@ cost = {
     'yes': .50,
     'no': 0
 }
+
 itemizedCost = list(map(lambda option: cost[option], options))
 total = reduce(lambda a, b: a + b, itemizedCost)
 subtotal = total
